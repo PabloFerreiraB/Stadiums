@@ -4,7 +4,7 @@ import * as S from './styles'
 
 import LinkWrapper from 'components/LinkWrapper'
 
-const AboutTemplate = () => (
+const PageTemplate = () => (
   <S.Content>
     <LinkWrapper href="/">
       <CloseOutline size={32} />
@@ -23,4 +23,4 @@ const AboutTemplate = () => (
   </S.Content>
 )
 
-export default AboutTemplate
+export default PageTemplate
